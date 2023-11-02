@@ -74,6 +74,9 @@
     display: flex;
     gap:4px;
     flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    padding-top: 2px;
   }
   
   .hero-review-link {
