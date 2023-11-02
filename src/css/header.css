@@ -1,0 +1,36 @@
+/* ==================== 320px ==================== */
+.header {}
+
+.header-container {}
+
+.header-nav {}
+
+.header-menu-container {
+    width: 982px;
+    height: 60px;
+}
+
+.header-menu-logo {}
+
+.header-menu-list {}
+
+.header-menu-item {}
+
+.header-menu-link {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.header-btn {
+    color: #121212;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.56;
+    text-transform: uppercase;
+    border-radius: 12px;
+    background-color: #FFF;
+    padding: 16px 84px;
+}
