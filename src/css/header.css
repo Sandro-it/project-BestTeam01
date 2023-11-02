@@ -8,9 +8,36 @@
 .header-menu-container {
     width: 982px;
     height: 60px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: var(--black, #121212);
 }
 
 .header-menu-logo {}
+
+.header-logo-icon {}
+
+.header-mob-camera {}
+
+.header-camera-icon {}
+
+.header-mob-menu {}
+
+.header-menu-icon {}
+
+.header-modal-menu {}
+
+.header-modal-btn {}
+
+.header-modal-btn-icon {}
+
+.header-modal-list {}
+
+.header-modal-item {}
+
+.header-modal-link {}
+
+.header-modal-img {}
 
 .header-menu-list {}
 
