@@ -1,17 +1,19 @@
+.footer{
+    background-image: url(/image/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .footer-container{
     display: flex;
-    align-items: center;
     justify-content: center;
-    max-width: 320px;
+    max-width: 375px;
     margin: 0 auto;
-    flex-direction: column;
-    background-image: url(/image/footer-bg.png);
-    
+    flex-direction: column; 
 }
-.logo-footer{ 
-
-}
+.logo-footer{ }
 .footer-logo-icon{}
+
 .contact-footer{
     padding-bottom: 40px;
 }
@@ -30,7 +32,6 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.28;
-text-transform: uppercase;
 }
 .footer-block{
     display: inline-flex;
@@ -68,16 +69,17 @@ font-weight: 400;
 line-height: normal;
 text-transform: uppercase;
 }
-.footer-send{}
-.footer-form{
+.footer-send{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     gap: 8px;
     padding-bottom: 40px;
 }
-.footer-form-label{}
+.footer-form{
+}
+.footer-form-label{
+}
 .footer-input{
 width: 267px;
 height: 60px;
@@ -89,8 +91,7 @@ font-family: DM Sans;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 1.25em;
-opacity: 0.7;
+line-height: 1.25;
 padding-left: 18px;
 padding-top: 20px;
 padding-bottom: 20px;
@@ -110,19 +111,36 @@ font-family: DM Sans;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
-line-height: 1.2em;
+line-height: 1.2;
 cursor: pointer;
 border: none;
 padding: 18px 17px;
 }
-.footer-bottom{}
-.footer-bottom-list{}
-.footer-bottom-item{}
+.footer-bottom{
+    display: flex;
+padding-bottom: 20px;
+}
+
+.footer-list{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.bottom-list{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 72px;
+}
+
 .bottom-text{
     color: #FFF;
 font-family: DM Sans;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
-line-height: 1.33em;
+line-height: 1.33;
+}
+.no-wrap{
+    white-space: nowrap;
 }
