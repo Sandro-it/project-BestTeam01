@@ -1,0 +1,73 @@
+.advertisement {
+  padding: 20px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.advertisement-container {
+}
+
+.advertisement-title {
+}
+
+.advertisement-run-line {
+  overflow: hidden;
+}
+
+.advertisement-run {
+  display: flex;
+}
+
+.advertisement-run-text {
+  color: #bea69e;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  min-width: 100%;
+  flex-shrink: 0;
+  animation-name: advertisementLine;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.advertisement-run-text span {
+  color: #fff;
+}
+
+@keyframes advertisementLine {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .advertisement {
+    padding: 24px 0;
+  }
+
+  .advertisement-run-text {
+    font-size: 40px;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+
+  .advertisement-run-text {
+    font-size: 59px;
+    line-height: 1.08;
+  }
+}
