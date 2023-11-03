@@ -165,19 +165,13 @@
 
 @media (min-width: 768px) {
   .hero-container {
-    max-width: 768px;
+    max-width: 704px;
     padding: 64px 155px 0 32px;
     margin-bottom: 150px;
   }
 
   .hero-title {
     max-width: 499px;
-    font-size: 60px;
-    font-weight: 500;
-    line-height: 1.07;
-  }
-
-  .hero-span {
     font-size: 60px;
     line-height: 1.07;
   }
@@ -226,8 +220,6 @@
 
   .container-header-hero-bkg {
     max-width: 768px;
-    height: 100%;
-    padding-top: 20px;
     padding-bottom: 100px;
     background-image: url(/img/hero/graphic-tab-1x.png);
   }
@@ -244,21 +236,46 @@
 /* ============================ MEDIA 1280 PX ============================  */
 
 @media (min-width: 1280px) {
-.container-header-hero-bkg {
-  max-width: 1280px;
-  height: 100%;
-  padding-top: 20px;
-  padding-bottom: 150px;
-  background-image: url(/img/hero/graphic-d1280-1x.png);
-}
-}
+  .hero-container {
+    max-width: 1080px;
+    padding: 80px 50px 0 50px;
+    margin-bottom: 150px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .container-header-hero-bkg {
+    max-width: 1280px;
+    padding-bottom: 150px;
+    background-image: url(/img/hero/graphic-d1280-1x.png);
+  }
 
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-.container-header-hero-bkg {
-  background-image: url(/img/hero/graphic-d1280-2x.png);
-}
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .container-header-hero-bkg {
+      background-image: url(/img/hero/graphic-d1280-2x.png);
+    }
+  }
+
+  .hero-title {
+    max-width: 530px;
+    font-size: 64px;
+    line-height: 1.06;
+  }
+
+  .hero-photographer {
+    width: 397px;
+    height: 520px;
+  }
+
+  .hero-img{
+    align-self: flex-end;
+  }
+
+  .hero-text {
+    margin-bottom: 242px;
+  }
 }
 
 /* ============================ MEDIA 1440 PX ============================  */
