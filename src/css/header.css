@@ -1,45 +1,115 @@
 /* ==================== 320px ==================== */
-.header {}
+.header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .header-container {}
 
 .header-nav {}
 
 .header-menu-container {
-    width: 982px;
-    height: 60px;
+    width: 335px;
+    height: 50px;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
     background: var(--black, #121212);
+    margin: 0 auto;
 }
 
-.header-menu-logo {}
+.header-menu-container-item {
+    display: flex;
+}
 
-.header-logo-icon {}
+.header-menu-logo {
+    margin: 15px 90px 15px 20px;
+}
 
-.header-mob-camera {}
+.header-logo-icon {
+    fill: #FFFFFF;
+}
 
-.header-camera-icon {}
+.header-mob-camera {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #1D1D1D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-right: 14px;
+}
 
-.header-mob-menu {}
+.header-camera-icon {
+    fill: #BEA69E;
+}
 
-.header-menu-icon {}
+.header-mob-menu-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: transparent;
+}
 
-.header-modal-menu {}
+.header-menu-icon {
+    fill: #FFFFFF;
+}
 
-.header-modal-btn {}
+.header-modal-menu {
+    display: none;
+    position: absolute;
+    width: 218px;
+    height: 812px;
+    background-color: var(--brown, #BEA69E);
+    z-index: 4;
+}
+
+.header-modal-btn {
+    color: #121212;
+    background-color: transparent;
+    border: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 128px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
 
 .header-modal-btn-icon {}
 
-.header-modal-list {}
+.header-modal-list {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 20px;
+    margin-bottom: 133px;
+}
 
 .header-modal-item {}
 
-.header-modal-link {}
+.header-modal-link {
+    color: var(--black, #121212);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.header-modal-link-one-child {
+    font-weight: 700;
+}
 
 .header-modal-img {}
 
-.header-menu-list {}
+.header-menu-list {
+    display: none;
+}
 
 .header-menu-item {}
 
@@ -60,4 +130,5 @@
     border-radius: 12px;
     background-color: #FFF;
     padding: 16px 84px;
+    display: none;
 }
