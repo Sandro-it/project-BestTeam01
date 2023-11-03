@@ -7,9 +7,9 @@
   padding: 40px 20px 0px 20px;
   font-family: inherit;
   font-size: 14px;
-  color: rgba(255, 255, 255, 1);
+  color:#FFFFFF;
   border-radius: 30px;
-  background-color: rgba(29, 29, 29, 1);
+  background-color: #1D1D1D;
 }
 
 .hero-title {
@@ -97,7 +97,8 @@
   line-height: 1.28;
   letter-spacing: -0.04em;
   text-align: left;
-  color: rgba(255, 255, 255, 0.5);
+  color: #FFFFFF80;
+
 }
 
 .hero-review-numbers {
