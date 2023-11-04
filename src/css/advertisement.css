@@ -24,6 +24,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+  /* font-weight: 400; якщо треба буде через заголовки робить */
   min-width: 100%;
   flex-shrink: 0;
   animation-name: advertisementLine;
