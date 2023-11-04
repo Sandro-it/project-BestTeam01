@@ -6,6 +6,7 @@
 body {
   background: #121212;
   font-family: 'DM Sans', sans-serif;
+  color: #ffffff;
 }
 
 h1,
@@ -23,9 +24,20 @@ ul {
   list-style: none;
 }
 
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
 a {
   text-decoration: none;
   color: currentColor;
+}
+
+address {
+  font-style: normal;
 }
 
 button {
@@ -34,6 +46,21 @@ button {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .container {
