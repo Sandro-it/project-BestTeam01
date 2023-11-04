@@ -20,9 +20,10 @@
   text-transform: uppercase;
   min-width: 100%;
   flex-shrink: 0;
+  padding: 0 10px;
   animation-name: advertisementLine;
   animation-duration: 5s;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
@@ -63,5 +64,6 @@
   .advertisement-run-text {
     font-size: 59px;
     line-height: 1.08;
+    padding: 0;
   }
 }
