@@ -1,6 +1,5 @@
 .hero-container {
   width: 100%;
-  /* margin: 0 20px 0 20px; */
   display: flex;
   margin: 0 auto;
   flex-direction: column;
@@ -75,10 +74,12 @@
 .hero-students-our {
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
   gap: 4px;
 }
 
 .hero-students-our-title {
+  display: block;
   line-height: 1.28;
   letter-spacing: -0.04em;
   text-align: left;
@@ -86,9 +87,17 @@
   max-width: 67px;
 }
 
-/* .hero-students-our-div{
+.hero-students-our-div {
+  width: 18px;
+  height: 8.7px;
+  align-self: center;
+  display: block;
+}
 
-  } */
+.hero-icon-arrow {
+  fill: #ffffff;
+  transform: translateY(250%);
+}
 
 .hero-review {
   display: flex;
@@ -109,10 +118,15 @@
   background-color: #bea69e;
   width: 44px;
   height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* .hero-review-link-icon {
-  } */
+.hero-icon-star {
+  fill: transparent;
+  stroke: #121212;
+}
 
 .hero-review-title {
   line-height: 1.28;
@@ -167,7 +181,6 @@
   .hero-container {
     max-width: 704px;
     padding: 64px 155px 0 32px;
-    margin-bottom: 150px;
   }
 
   .hero-title {
@@ -184,6 +197,7 @@
     width: 54px;
     height: 54px;
   }
+
   .hero-students {
     display: flex;
     flex-direction: row;
@@ -230,57 +244,71 @@
     .container-header-hero-bkg {
       background-image: url(/img/hero/graphic-tab-2x.png);
     }
-  }
-}
 
-/* ============================ MEDIA 1280 PX ============================  */
+    .hero-icon-arrow {
+      transform: translateY(0%);
+    }
 
-@media (min-width: 1280px) {
-  .hero-container {
-    max-width: 1080px;
-    padding: 80px 50px 0 50px;
-    margin-bottom: 150px;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 20px;
-  }
-  .container-header-hero-bkg {
-    max-width: 1280px;
-    padding-bottom: 150px;
-    background-image: url(/img/hero/graphic-d1280-1x.png);
-  }
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .container-header-hero-bkg {
-      background-image: url(/img/hero/graphic-d1280-2x.png);
+    .hero-students-our-div{
+      align-self: flex-start;
     }
   }
 
-  .hero-title {
-    max-width: 530px;
-    font-size: 64px;
-    line-height: 1.06;
+  /* ============================ MEDIA 1280 PX ============================  */
+
+  @media (min-width: 1280px) {
+    .hero-container {
+      max-width: 1080px;
+      padding: 80px 50px 0 50px;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .container-header-hero-bkg {
+      max-width: 1280px;
+      padding-bottom: 150px;
+      background-image: url(/img/hero/graphic-d1280-1x.png);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .container-header-hero-bkg {
+        background-image: url(/img/hero/graphic-d1280-2x.png);
+      }
+    }
+
+    .hero-title {
+      max-width: 530px;
+      font-size: 64px;
+      line-height: 1.06;
+    }
+
+    .hero-photographer {
+      width: 397px;
+      height: 520px;
+    }
+
+    .hero-img {
+      align-self: flex-end;
+    }
+
+    .hero-text {
+      margin-bottom: 136px;
+    }
   }
 
-  .hero-photographer {
-    width: 397px;
-    height: 520px;
+  /* ============================ MEDIA 1440 PX ============================  */
+
+  /* @media screen and (min-width: 1440px) {
+
+  .hero-container {
+    max-width: 1240px;
+    padding: 80px 100px 0 50px;
+    gap: 130px;
   }
 
-  .hero-img{
-    align-self: flex-end;
-  }
-
-  .hero-text {
-    margin-bottom: 242px;
-  }
-}
-
-/* ============================ MEDIA 1440 PX ============================  */
-
-/* @media screen and (min-width: 1440px) {
   .container-header-hero-bkg {
     max-width: 1440px;
     height: 910px;
@@ -294,5 +322,5 @@
   (min-resolution: 2dppx) {
   .container-header-hero-bkg {
     background-image: url(/img/hero/graphic-d1440-2x.png);
-  }
-} */
+  } */
+}
