@@ -22,7 +22,7 @@
   color: #bea69e;
   font-size: 28px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
   text-transform: uppercase;
   min-width: 100%;
   flex-shrink: 0;
@@ -57,7 +57,7 @@
 
   .advertisement-run-text {
     font-size: 40px;
-    line-height: 1.5;
+    line-height: 1.25;
   }
 }
 
