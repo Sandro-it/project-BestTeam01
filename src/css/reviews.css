@@ -1,12 +1,74 @@
 .review-section {
-    background-color: black;
+    width: 100%;
+    padding-bottom: 80px;
+    background-color: #121212;
+    font-family: inherit;
 }
 
 .review-title {
+    color: #fff;
     font-size: 28px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: -0.04em;
     text-align: left;
     margin-bottom: 40px;
+}
+
+.review-item {
+    position: relative;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    border-radius: 12px;
+}
+
+.review-header {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.review-info {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.review-name {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 4px;
+}
+
+.review-status {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 4px;
+}
+
+.rating-list {
+    position: absolute;
+    top: 80px;
+    left: 86px;
+    display: flex;
+    gap: 4px;
+    max-width: 96px;
+}
+
+.rating-item {
+    background-color: red;
+}
+
+.review-dscr {
+    color: #fff;
+    font-size: 14px;
+    font-family: 400;
+    line-height: 1.29;
+    letter-spacing: 0.02em;
+    text-align: left;
 }
