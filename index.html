@@ -17,7 +17,7 @@
     <title>Magic of photography</title>
     
     <script type="module" crossorigin src="/project-BestTeam01/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-BestTeam01/assets/index-24ac5c9a.css">
+    <link rel="stylesheet" href="/project-BestTeam01/assets/index-1c131e46.css">
   </head>
 
   <body>
@@ -71,11 +71,22 @@
               <a href="" class="header-modal-link">Contacts</a>
             </li>
           </ul>
-          <img
-            src="../img/header/camera-mob-x1.jpg"
-            alt="camera"
-            class="header-modal-img"
-          />
+          <picture class="container-img-header">
+            <source
+              srcset="/project-BestTeam01/assets/camera-tab-x1-707b1834.jpg x1, /project-BestTeam01/assets/camera-tab-x2-5442146d.jpg x2"
+              media="(min-width: 768px)"
+            />
+
+            <source
+              srcset="/project-BestTeam01/assets/camera-mob-x1-6f07dcd0.jpg x1, /project-BestTeam01/assets/camera-mob-x2-810241c8.jpg x2"
+              media="(max-width: 767px)"
+            />
+            <img
+              src="/project-BestTeam01/assets/camera-mob-x1-6f07dcd0.jpg"
+              alt="camera"
+              class="header-modal-img"
+            />
+          </picture>
         </div>
         <ul class="header-menu-list">
           <li class="header-menu-item">
