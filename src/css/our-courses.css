@@ -112,8 +112,7 @@
   .courses-intro {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
-    gap: 58px;
+    justify-content: space-between;
     margin-bottom: 50px;
   }
 
@@ -146,6 +145,7 @@
   .courses-list-text {
     font-size: 16px;
     line-height: 1.25;
+    min-height: 80px;
   }
 }
 
@@ -202,7 +202,6 @@
 
   .icon-item:hover {
     background-color: #BEA69E;
-    transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .icon-item:hover .icon-img {
