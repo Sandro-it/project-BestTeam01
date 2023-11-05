@@ -1,12 +1,10 @@
 .review-section {
     width: 100%;
     padding-bottom: 80px;
-    /* background-color: #121212; */
     font-family: inherit;
 }
 
 .review-title {
-    /* color: #fff; */
     font-size: 28px;
     font-weight: 500;
     line-height: 1.14;
@@ -61,7 +59,6 @@
 }
 
 .review-name {
-    /* color: #fff; */
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -97,23 +94,41 @@
 }
 }
 
+
 .rating-item {
     max-width: 16px;
     max-height: 16px;
-    background-color: #BEA69E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating-icon {
+    stroke: #BEA69E;
+    fill: #BEA69E;
+}
+
+.rating-icon-not-rated {
+    stroke: #414141;
+    fill: #414141;
 }
 
 @media screen and (min-width: 768px),
 (min-width: 1280px) {
 
 .rating-item {
-    max-width: 20px;
-    max-height: 20px;
+    min-width: 20px;
+    min-height: 20px;
 }
+
+.rating-icon, .rating-icon-not-rated {
+    min-width: 20px;
+    min-height: 20px;
+}
+
 }
 
 .review-dscr {
-    /* color: #fff; */
     font-size: 14px;
     font-weight: 400;
     line-height: 1.29;
