@@ -1,0 +1,129 @@
+.about-us {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .about-title {
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+  }
+  .span-about-title {
+    color: #BEA69E;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+  }
+  .img-about {
+    height: 209px;
+    width: 335px;
+    margin-bottom: 40px;
+  }
+  
+  .about-us-photo {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .text-about {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 335px;
+  }
+  
+  .text-about-us {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    max-width: 335px;
+  }
+ /* tablet-about-us */
+  @media screen and (min-width: 768px) {
+    .about-title {
+    font-size: 48px;
+  }
+  .span-about-title {
+    font-size: 48px;
+  }
+  .about-us {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .img-about {
+    height: 340px;
+    width: 704px;
+    margin-bottom: 50px;
+  }
+
+  .text-about {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    max-width: 100%;
+  }
+
+  .text-about-us {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  }
+  
+ 
+/* 1280-about-us */
+  @media screen and (min-width: 1280px) {
+    .about-us {
+      padding-top: 150px;
+      padding-bottom: 150px;
+    }
+  
+    .about-content {
+      display: flex;
+    }
+  
+    .img-about {
+      height: 260px;
+      width: 488px;
+      margin-bottom: 0;
+      margin-right: 40px;
+    }
+    .first {
+      max-width: 268px;
+    }
+  
+    .second {
+      max-width: 264px;
+    }
+  }
+/* 1440-about-us */
+  @media screen and (min-width: 1440px) {
+    .about-us {
+      padding-top: 150px;
+      padding-bottom: 150px;
+    }
+  
+    .about-content {
+      display: flex;
+    }
+  
+    .img-about {
+      height: 240px;
+      width: 560px;
+      margin-bottom: 0;
+      margin-right: 50px;
+    }
+    .first {
+      max-width: 314px;
+    }
+
+    .second {
+      max-width: 276px;
+    }
+  }
