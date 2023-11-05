@@ -1,16 +1,20 @@
-.footer{
-    background-image: url(/img/footer/f-mob-bg.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0 auto;
+
+.container{
+ 
 }
 .footer-container{
     display: flex;
     justify-content: center;
-    max-width: 375px;
     margin: 0 auto;
     flex-direction: column; 
+    max-width: 499px;
+    height: 100%;
+    background-image: url(/img/footer/footer-graphic-mob-1x.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
 }
 .logo-footer{
     padding-top: 40px;
@@ -152,11 +156,17 @@ line-height: 1.33;
 .no-wrap{
     white-space: nowrap;
 }
+@media (min-device-pixel-ratio:2), (min-resolution: 192dpi), (min-resolution: 2dppx){
+.footer-container{
+    background-image: url(/img/footer/footer-graphic-mob-2x.png);
+}
+}
 @media screen and (min-width: 768px){
     .container{
     max-width: 768px;
 }
 .footer-container{
+    max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
     display: flex;
@@ -164,6 +174,7 @@ line-height: 1.33;
     flex-wrap: wrap;
     padding-top: 50px;
     padding-bottom: 25px;
+    background-image: url(/img/footer/footer-graphic-tab-1x.png);
 }
 .footer-contact-logo{
     display: flex;
@@ -212,20 +223,22 @@ height: 60px;
 }
 .bottom-list{
     display: flex;
-    flex-direction: column;
-}
-}
-@media (min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){
-    .footer{
-        max-width: 768px;
-       background-image: url(/img/footer/f-tab-bg-2x.png); 
+    flex-direction: column;}
+
+
+@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi),(min-resolution: 2dppx){
+    .footer-container{
+        background-image: url(/img/footer/footer-graphic-tab-2x.png);
     }
-}
+}}
+
+
 @media screen and (min-width: 1280px){
     .container{
         max-width: 1280px;
     }
     .footer-container{
+        max-width: 1280px;
         padding-left: 100px;
         padding-right: 100px;
         display: flex;
@@ -233,6 +246,7 @@ height: 60px;
         flex-wrap: wrap;
         padding-top: 50px;
         padding-bottom: 25px;
+        background-image: url(/img/footer/footer-graphic-d1280-1x.png);
     }
     .footer-contact-logo{
         display: flex;
@@ -295,10 +309,8 @@ height: 60px;
         display: flex;
         flex-direction: column;
     }
-}
-@media (min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx) {
-    .footer{
-        max-width: 1280px;
-        background-image: url(/img/footer/f-ds-bg-2x.png);
-    }
-}
+    @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi),(min-resolution: 2dppx){
+        .footer-container{
+            background-image: url(/img/footer/footer-graphic-d1280-2x.png);
+        }
+    }}
