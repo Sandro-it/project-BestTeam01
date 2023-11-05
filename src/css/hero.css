@@ -232,10 +232,23 @@
     height: 434px;
   }
 
+  .hero-icon-arrow {
+    transform: translateY(0%);
+  }
+
+  .hero-students-our-div{
+    align-self: flex-start;
+  }
+
   .container-header-hero-bkg {
     max-width: 768px;
     padding-bottom: 100px;
     background-image: url(/img/hero/graphic-tab-1x.png);
+  }
+
+  .hero-students-our-div {
+    width: 18px;
+    height: 8.7px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -245,13 +258,6 @@
       background-image: url(/img/hero/graphic-tab-2x.png);
     }
 
-    .hero-icon-arrow {
-      transform: translateY(0%);
-    }
-
-    .hero-students-our-div{
-      align-self: flex-start;
-    }
   }
 
   /* ============================ MEDIA 1280 PX ============================  */
