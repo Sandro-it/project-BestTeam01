@@ -4,9 +4,14 @@
     margin-bottom: 20px;
 }
 
-.header-container {}
+.header-container {
+    display: flex;
+}
 
-.header-nav {}
+.header-nav {
+    margin: 0 auto;
+    display: flex;
+}
 
 .header-menu-container {
     width: 100%;
@@ -15,6 +20,7 @@
     border: 1px solid rgba(255, 255, 255, 0.20);
     background: var(--black, #121212);
     margin: 0 auto;
+    display: flex;
 }
 
 .header-menu-container-item {
@@ -43,6 +49,11 @@
 }
 
 .header-camera-icon {
+    fill: #BEA69E66;
+}
+
+.header-camera-icon:hover,
+.header-camera-icon:focus {
     fill: #BEA69E;
 }
 
@@ -59,7 +70,7 @@
 }
 
 .header-modal-menu {
-    /* display: none; */
+    display: none;
     position: absolute;
     width: 218px;
     height: 812px;
@@ -108,23 +119,33 @@
 .header-modal-link-one-child {
     font-weight: 700;
 }
-
+.container-img-header {
+    flex-shrink: 0;
+}
 .header-modal-img {}
 
 .header-menu-list {
     display: none;
+    gap: 28px;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-menu-item {}
 
 .header-menu-link {
-    color: #FFF;
+    color: #FFFFFF;
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.header-menu-link:focus,
+.header-menu-link:hover {
+    color: #BEA69E;
+}
 .header-btn {
     color: #121212;
     font-size: 18px;
@@ -134,7 +155,14 @@
     border-radius: 12px;
     background-color: #FFF;
     padding: 16px 58px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: none;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+background-color: #1D1D1D;
+color: #BEA69E;
 }
 
 @media screen and (min-width: 375px) {
@@ -152,20 +180,19 @@
     }
     .header-btn {
         display: flex;
-        position: absolute;
-        top: 19px;
-        right: 32px
     }
     .header-mob-camera {
         display: none;
     }
     .header-menu-logo {
-        margin: 18px 301px 16px 20px;
+        margin: 0 auto;
+        padding-top: 16px;
+        margin-left: 20px;
+        margin-right: 301px;
     }
     .header-modal-menu {
         width: 480px;
         height: 1024px;
-        right: 15px;
     }
     .header-modal-list {
         margin-top: 232px;
@@ -182,5 +209,24 @@
 @media screen and (min-width: 1280px) {
     .header-modal-menu {
         display: none;
+    }
+    .header-mob-menu-btn {
+        display: none;
+    }
+    .header-menu-container {
+        width: 822px;
+        margin-left: 100px;
+    }
+    .header-menu-list {
+        display: flex;
+    }
+    .header-btn {
+        padding-left: 84px;
+        padding-right: 84px;
+        right: 97px;
+    }
+    .header-menu-logo {
+        margin-right: 97px;
+        margin-left: 50px;
     }
 }
