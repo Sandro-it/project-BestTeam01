@@ -9,14 +9,14 @@
     font-family: DM Sans;
     font-size: 28px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.14;
     letter-spacing: -0.04em;
   }
   .span-about-title {
     color: #BEA69E;
     font-size: 28px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.14;
     letter-spacing: -0.04em;
   }
   .img-about {
@@ -104,14 +104,6 @@
   }
 /* 1440-about-us */
   @media screen and (min-width: 1440px) {
-    .about-us {
-      padding-top: 150px;
-      padding-bottom: 150px;
-    }
-  
-    .about-content {
-      display: flex;
-    }
   
     .img-about {
       height: 240px;
