@@ -76,8 +76,6 @@ img {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
@@ -86,17 +84,11 @@ img {
     max-width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
