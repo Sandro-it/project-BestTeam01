@@ -1,11 +1,7 @@
-.signup {
-    padding: 80px 20px;
-    margin: 0 auto;
-    width:375px;
-}
 
 .signup-block-1 {
-width:100%;    
+width:100%;  
+margin-bottom: 100px;     
 }
 
     .signup-header {
@@ -43,7 +39,6 @@ width:100%;
     margin: 0;
     margin-bottom: 8px;
     color: var(--white, #FFF);
-    color: #FFF;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.25; 
@@ -65,7 +60,7 @@ width:100%;
 .input-email::placeholder,
 .input-message::placeholder  {
 
-color: var(--WHITE, #FFF);
+    color: var(--WHITE, #FFF);
  font-family: DM Sans;
  font-size: 14px;
  font-weight: 400;
@@ -123,7 +118,8 @@ text-decoration-line: underline;
 @media screen and (min-width: 768px) {
   
     .signup-block-1 {
-        width:480px;    
+        width:480px; 
+        
         }
         
     .signup-header {
@@ -179,10 +175,11 @@ text-decoration-line: underline;
 
 @media screen and (min-width: 1280px) {
 .signup {
-    width: 1080px;
+    
     display:flex;
     flex-direction:row;
     align-items:flex-end;
+    
     
     }
 
@@ -196,17 +193,18 @@ margin-right: 60px;
     background-color: #BEA69E;
     width: 180px;
     height: 288px;
-   margin-right: 20px;
+   margin-right:20px;
   border-radius: 1000px;
- margin-bottom: 50px;
-        }
+ margin-bottom: 150px;
 
-        .signup-foto1 {
+        }
+        .signup-img1 {
+            max-width: 100%;
+            height: 142px;
             position:relative;
             top:76px;
-            right:19px;
-            width: 150px;
-            height: 142px;
+right:24px;
+          
                     }
 
 .signup-block-3 {
@@ -215,15 +213,16 @@ margin-right: 60px;
         height: 540px;
         background-color: #1D1D1D;
         border-radius: 1000px;
-        margin-bottom: 50px;
+        margin-bottom: 150px;
         
         }  
-    
-            .signup-foto2 {
-                position:relative;
-                top:156px;
-                left: 50px;
-                width: 240px;
-                height: 296px;
-                }
+        .signup-img2 {
+            width: 240px;
+            height: 296px;
+            position:relative;
+            top:156px;
+            left: 50px;
+             
+                    }   
+
     }
