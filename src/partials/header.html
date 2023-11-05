@@ -47,11 +47,23 @@
               <a href="" class="header-modal-link">Contacts</a>
             </li>
           </ul>
-          <img
-            src="../img/header/camera-mob-x1.jpg"
-            alt="camera"
-            class="header-modal-img"
-          />
+          <picture class="container-img-header">
+            <source
+              srcset="./img/header/camera-tab-x1.jpg x1, 
+              ./img/header/camera-tab-x2.jpg x2"
+              media="(min-width: 768px)"
+            />
+
+            <source
+              srcset="./img/header/camera-mob-x1.jpg x1, ./img/header/camera-mob-x2.jpg x2"
+              media="(max-width: 767px)"
+            />
+            <img
+              src="./img/header/camera-mob-x1.jpg"
+              alt="camera"
+              class="header-modal-img"
+            />
+          </picture>
         </div>
         <ul class="header-menu-list">
           <li class="header-menu-item">
