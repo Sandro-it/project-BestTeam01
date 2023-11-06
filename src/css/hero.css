@@ -179,7 +179,7 @@
 
 @media (min-width: 768px) {
   .hero-container {
-    max-width: 704px;
+    max-width: 768px;
     padding: 64px 155px 0 32px;
   }
 
@@ -259,30 +259,17 @@
     }
 
   }
+}
 
   /* ============================ MEDIA 1280 PX ============================  */
 
   @media (min-width: 1280px) {
     .hero-container {
-      max-width: 1080px;
+      max-width: 1280px;
       padding: 80px 50px 0 50px;
       flex-direction: row;
       justify-content: space-between;
       gap: 20px;
-    }
-
-    .container-header-hero-bkg {
-      max-width: 1280px;
-      padding-bottom: 150px;
-      background-image: url(/img/hero/graphic-d1280-1x.png);
-    }
-
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      .container-header-hero-bkg {
-        background-image: url(/img/hero/graphic-d1280-2x.png);
-      }
     }
 
     .hero-title {
@@ -303,30 +290,47 @@
     .hero-text {
       margin-bottom: 136px;
     }
+
+    .container-header-hero-bkg {
+      max-width: 1280px;
+      padding-bottom: 150px;
+      background-image: url(/img/hero/graphic-d1280-1x.png);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .container-header-hero-bkg {
+        background-image: url(/img/hero/graphic-d1280-2x.png);
+      }
+    }
   }
 
   /* ============================ MEDIA 1440 PX ============================  */
 
-  /* @media screen and (min-width: 1440px) {
+  @media (min-width: 1440px) {
+    .hero-container {
+      max-width: 1440px;
+      padding: 80px 100px 0 50px;
+      gap: 130px;
+    }
+  
+    .hero-title {
+      max-width: 563px;
+      font-size: 64px;
+      line-height: 1.06;
+    }
 
-  .hero-container {
-    max-width: 1240px;
-    padding: 80px 100px 0 50px;
-    gap: 130px;
-  }
+    .container-header-hero-bkg {
+      max-width: 1440px;
+      background-image: url(/img/hero/graphic-d1440-1x.png);
+    }
 
-  .container-header-hero-bkg {
-    max-width: 1440px;
-    height: 910px;
-    padding: 20px 100px 150px 100px;
-    background-image: url(/img/hero/graphic-d1440-1x.png);
-  }
-}
-
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .container-header-hero-bkg {
-    background-image: url(/img/hero/graphic-d1440-2x.png);
-  } */
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .container-header-hero-bkg {
+        background-image: url(/img/hero/graphic-d1440-2x.png);
+      }
+    }
 }
