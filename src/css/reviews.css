@@ -4,6 +4,18 @@
     font-family: inherit;
 }
 
+@media screen and (min-width: 768px) {
+    .review-section {
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .review-section {
+        padding-bottom: 150px;
+    }
+}
+
 .review-title {
     font-size: 28px;
     font-weight: 500;
@@ -15,10 +27,9 @@
 
 @media screen and (min-width: 768px) {
     .review-title {
-        font-size: 48px;
-        font-weight: 500;
-        line-height: 1.13;
-        letter-spacing: -0.04em;
+    font-size: 48px;
+    line-height: 1.13;
+    letter-spacing: -0.04em;
     }
 }
 
