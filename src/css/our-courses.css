@@ -127,7 +127,6 @@
     max-width: 381px;
   }
 
-
   .courses-content {
     padding: 32px;
     width: 342px;
@@ -164,7 +163,6 @@
     max-width: 405px;
   }
 
-
   .courses-list {
     display: flex;
     flex-wrap: wrap;
@@ -183,7 +181,6 @@
     padding: 28px;
     height: 398px;
   }
-
 
   .courses-list-number {
     display: flex;
