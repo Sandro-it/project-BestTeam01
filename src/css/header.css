@@ -75,7 +75,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 6053px;
+    height: 6470px;
     background-color: var(--NAVY-BLUE-modal, rgba(18, 18, 18, 0.40));
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
@@ -214,6 +214,9 @@ color: #BEA69E;
         top: 20px;
         right: 32px;
     }
+    .container-modal-menu {
+        height: 5590px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -238,5 +241,8 @@ color: #BEA69E;
     .header-menu-logo {
         margin-right: 97px;
         margin-left: 50px;
+    }
+    .header-nav {
+        margin: 0;
     }
 }
