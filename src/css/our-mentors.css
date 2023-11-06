@@ -4,13 +4,6 @@
   /*font-family: inherit;*/
 }
 
-.mentors-container {
-  max-width: 320px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin: 0 auto;
-}
-
 .mentors-title {
   /*color: #fff;*/
   font-size: 28px;
@@ -47,14 +40,14 @@
 }
 .mentors-image-name {
   color: #fff;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.14;
   width: 279px;
 }
 .mentors-list-text {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -63,6 +56,12 @@
 @media screen and (min-width: 768px) {
   .mentors {
     padding-bottom: 100px;
+  }
+  .mentors-image-name {
+    font-size: 28px;
+  }
+  .mentors-list-text {
+    font-size: 14px;
   }
   .mentors-list {
     flex-direction: row;
@@ -75,7 +74,7 @@
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
   .mentors {
     padding-bottom: 150px;
   }
