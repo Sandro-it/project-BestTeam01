@@ -1,15 +1,12 @@
 .mentors {
-  /*width: 100%;*/
   padding-bottom: 80px;
-  /*font-family: inherit;*/
 }
 
 .mentors-title {
-  /*color: #fff;*/
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
-  /*width: 190px;*/
+  letter-spacing: -0.04em;
   margin-bottom: 40px;
 }
 .mentors-title-span {
@@ -17,7 +14,6 @@
 }
 .mentors-list {
   display: flex;
-  /*max-width: 1020px;*/
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -25,8 +21,6 @@
 }
 
 .mentors-list-card {
-  /*position: relative;*/
-  /*padding: 20px;*/
 }
 
 .mentors-image {
@@ -39,17 +33,19 @@
   margin: 0 auto;
 }
 .mentors-image-name {
-  color: #fff;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.14;
-  width: 279px;
+  line-height: 1.2;
+  text-align: center;
+  width: 190px;
 }
 .mentors-list-text {
   color: rgba(255, 255, 255, 0.5);
   font-size: 12px;
   font-weight: 400;
-  line-height: 1.29;
+  text-align: center;
+  width: 190px;
+  line-height: 1.33;
   letter-spacing: -0.02em;
 }
 
@@ -59,9 +55,11 @@
   }
   .mentors-image-name {
     font-size: 28px;
+    line-height: 1, 14;
   }
   .mentors-list-text {
     font-size: 14px;
+    line-height: 1, 29;
   }
   .mentors-list {
     flex-direction: row;
@@ -71,6 +69,7 @@
   .mentors-title {
     font-size: 48px;
     margin-bottom: 50px;
+    line-height: 1, 13;
   }
 }
 
