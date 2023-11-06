@@ -30,14 +30,21 @@
     font-size: 48px;
     line-height: 1.13;
     letter-spacing: -0.04em;
+    margin-bottom: 50px;
     }
 }
 
 .review-list {
     display: flex;
     gap: 20px;
+    padding: 0 32px;
 }
 
+@media screen and (max-width: 767px), (min-width: 1279px) {
+    .review-list {
+    padding: 0;
+    }
+}
 .review-item {
     position: relative;
     padding: 20px;
@@ -71,6 +78,11 @@
 .review-header {
     margin-bottom: 20px;
 }
+}
+
+.review-img {
+    width: 56px;
+    height: 56px;
 }
 
 .review-info {
