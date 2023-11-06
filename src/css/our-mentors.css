@@ -20,11 +20,6 @@
   gap: 40px;
 }
 
-.mentors-list-card {
-}
-
-.mentors-image {
-}
 .mentors-info {
   padding-top: 16px;
   padding-left: 0;
@@ -76,8 +71,5 @@
 @media screen and (min-width: 1280px) {
   .mentors {
     padding-bottom: 150px;
-  }
-  .mentors-list {
-    /*padding: 50px 0;*/
   }
 }
