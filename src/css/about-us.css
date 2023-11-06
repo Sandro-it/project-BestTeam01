@@ -20,7 +20,8 @@
     letter-spacing: -0.04em;
   }
   .img-about {
-    width: 209px;
+    height: 209px;
+    width: 335px;
     margin-bottom: 40px;
   }
   
@@ -56,7 +57,8 @@
     padding-bottom: 100px;
   }
   .img-about {
-    width: 340px;
+    height: 340px;
+    width: 704px;
     margin-bottom: 50px;
   }
 
@@ -73,10 +75,10 @@
     line-height: 1.25;
   }
   .first {
-    max-width: 280px;
+  max-width: 280px;
   }
   .second {
-    max-width: 280px;
+  max-width: 280px;
   }
   }
   
@@ -93,7 +95,8 @@
     }
   
     .img-about {
-      width: 260px;
+      height: 260px;
+      width: 488px;
       margin-bottom: 0;
       margin-right: 40px;
     }
@@ -109,14 +112,14 @@
   @media screen and (min-width: 1440px) {
   
     .img-about {
-      width: 240px;
+      height: 240px;
+      width: 560px;
       margin-bottom: 0;
       margin-right: 50px;
     }
     .first {
       max-width: 314px;
     }
-
     .second {
       max-width: 276px;
     }
