@@ -74,6 +74,12 @@
     font-size: 16px;
     line-height: 1.25;
   }
+  .first {
+    max-width: 280px;
+  }
+  .second {
+    max-width: 280px;
+  }
   }
   
  
@@ -89,8 +95,8 @@
     }
   
     .img-about {
-      height: 260px;
-      width: 488px;
+      height: 488px;
+      width: 260px;
       margin-bottom: 0;
       margin-right: 40px;
     }
