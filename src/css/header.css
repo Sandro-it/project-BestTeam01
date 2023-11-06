@@ -71,6 +71,8 @@
 
 .container-modal-menu {
     z-index: 4;
+    opacity: 0;
+    visibility: hidden;
     width: 100%;
     position: absolute;
     top: 0;
@@ -173,6 +175,12 @@
 .header-btn:focus {
 background-color: #1D1D1D;
 color: #BEA69E;
+}
+
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 
 @media screen and (min-width: 375px) {
