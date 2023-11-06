@@ -1,14 +1,9 @@
 
-.container{
- 
-}
 .footer-container{
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    flex-direction: column; 
-    max-width: 499px;
-    height: 100%;
+    flex-direction: column;
     background-image: url(/img/footer/footer-graphic-mob-1x.png);
     background-size: cover;
     background-position: center;
@@ -87,13 +82,13 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 8px;
     padding-bottom: 40px;
 }
 .footer-form{
+    display: flex;
+    gap: 8px;
 }
-.footer-form-label{
-}
+
 .footer-input{
 width: 267px;
 height: 60px;
@@ -164,9 +159,7 @@ line-height: 1.33;
 }
 }
 @media screen and (min-width: 768px){
-    .container{
-    max-width: 768px;
-}
+
 .footer-container{
     max-width: 768px;
     padding-left: 32px;
@@ -183,12 +176,9 @@ line-height: 1.33;
 flex-direction: column;
 padding-right: 58px;
 }
+
 .footer-logo-icon{
     fill:  #FFF;
-    width: 123px;
-height: 16px;
-}
-.contact-footer{
 }
 .contact-list{
     display: inline-flex;
@@ -204,6 +194,11 @@ padding-right: 59px;
 }
 .footer-send{
     padding-bottom: 0;
+    display: flex;
+}
+.footer-form{
+    display: flex;
+    gap: 8px;   
 }
 .footer-input{
     width: 178px;
@@ -237,9 +232,7 @@ height: 60px;
 
 
 @media screen and (min-width: 1280px){
-    .container{
-        max-width: 1280px;
-    }
+    
     .footer-container{
         max-width: 1280px;
         padding-left: 100px;
@@ -256,12 +249,9 @@ height: 60px;
     flex-direction: column;
     padding-right: 285px;
     }
+
     .footer-logo-icon{
         fill:  #FFF;
-        width: 123px;
-    height: 16px;
-    }
-    .contact-footer{
     }
     .contact-list{
         display: inline-flex;
@@ -289,6 +279,10 @@ height: 60px;
 
     .footer-send{
         padding-bottom: 0;
+    }
+    .footer-form{
+        display: flex;
+        gap: 16px;
     }
     .footer-input{
         width: 216px;
@@ -318,3 +312,84 @@ height: 60px;
             background-image: url(/img/footer/footer-graphic-d1280-2x.png);
         }
     }}
+    @media screen and (min-width: 1440px){
+    
+        .footer-container{
+            max-width: 1440px;
+            padding-left: 100px;
+            padding-right: 100px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding-top: 50px;
+            padding-bottom: 25px;
+            background-image: url(/img/footer/footer-graphic-d1440-1x.png);
+        }
+        .footer-contact-logo{
+            display: flex;
+        flex-direction: column;
+        padding-right: 341px;
+        }
+    
+        .footer-logo-icon{
+            fill:  #FFF;
+        }
+        .contact-list{
+            display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        }
+        .footer-block{
+            display: inline-flex;
+        align-items: flex-start;
+        gap: 100px;
+        padding-right: 191px;
+        }
+        .footer-soc-list{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        .footer-menu-list{
+            display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;}
+    
+        .footer-send{
+            padding-bottom: 0;
+        }
+        .footer-form{
+            display: flex;
+            gap: 16px;
+        }
+        .footer-input{
+            width: 216px;
+        height: 60px;
+        }
+        .logo-footer{
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 25px;
+            padding-top: 0;
+        }
+        .footer-bottom{
+            width: 100%;
+            justify-content: space-between;
+            padding-bottom: 0;
+        }
+        .footer-list{
+            display: flex;
+            flex-direction: column;
+        }
+        .bottom-list{
+            display: flex;
+            flex-direction: column;
+        }
+        @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi),(min-resolution: 2dppx){
+            .footer-container{
+                background-image: url(/img/footer/footer-graphic-d1440-2x.png);
+            }
+        }}
