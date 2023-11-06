@@ -256,7 +256,7 @@ color: #BEA69E;
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1440px) {
     .header-menu-container {
     width: 982px;
     }
