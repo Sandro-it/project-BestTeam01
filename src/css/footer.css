@@ -11,6 +11,9 @@
     margin: 0 auto;
     border-top: 1px solid rgba(255, 255, 255, 0.20);
 }
+.footer-contact-logo{
+    margin-bottom: 40px;
+}
 .logo-footer{
     padding-top: 40px;
     padding-bottom: 16px;
@@ -18,9 +21,7 @@
 .footer-logo-icon{
     fill:  #FFF;
 }
-.contact-footer{
-    padding-bottom: 40px;
-}
+
 .contact-list{
     display: inline-flex;
 height: 46px;
@@ -41,7 +42,7 @@ line-height: 1.28;
     display: inline-flex;
 align-items: flex-start;
 gap: 40px;
-padding-bottom: 75px;
+margin-bottom: 75px;
 }
 .footer-soc-list{
     display: flex;
@@ -81,16 +82,18 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 .footer-form{
     display: flex;
     gap: 8px;
+    max-width: 100%;
+
 }
+
 .footer-input{
-width: 267px;
-height: 60px;
-flex-shrink: 0;
+    width: 267px;
+    height: 60px;
 border-radius: 12px;
 background-color: #FFF;
 color: #121212;
@@ -102,6 +105,8 @@ line-height: 1.25;
 padding-left: 18px;
 padding-top: 20px;
 padding-bottom: 20px;
+outline: transparent;
+border: transparent;
 }
 .footer-btn{
 min-width: 60px;
@@ -125,7 +130,9 @@ padding: 18px 17px;
 }
 .footer-bottom{
     display: flex;
+    justify-content: center;
 padding-bottom: 20px;
+gap: 30px;
 }
 .footer-list{
     display: flex;
@@ -134,7 +141,6 @@ padding-bottom: 20px;
 .bottom-list{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 72px;
 }
 .bottom-text{
     color: #FFF;
@@ -152,6 +158,12 @@ line-height: 1.33;
     background-image: url(/img/footer/footer-graphic-mob-2x.png);
 }
 }
+@media  screen and (min-width: 375px) {
+    .footer-bottom{
+        display: flex;
+        gap: 72px;
+    }
+}
 @media screen and (min-width: 768px){
 
 .footer-container{
@@ -168,7 +180,7 @@ line-height: 1.33;
 .footer-contact-logo{
     display: flex;
 flex-direction: column;
-padding-right: 58px;
+margin-right: 58px;
 }
 .footer-logo-icon{
     fill:  #FFF;
@@ -183,7 +195,7 @@ gap: 10px;
     display: inline-flex;
 align-items: flex-start;
 gap: 25px;
-padding-right: 59px;
+margin-right: 59px;
 }
 .footer-send{
     padding-bottom: 0;
@@ -240,7 +252,7 @@ height: 60px;
     .footer-contact-logo{
         display: flex;
     flex-direction: column;
-    padding-right: 285px;
+    margin-right: 285px;
     }
     .footer-logo-icon{
         fill:  #FFF;
@@ -255,7 +267,7 @@ height: 60px;
         display: inline-flex;
     align-items: flex-start;
     gap: 50px;
-    padding-right: 135px;
+    margin-right: 135px;
     }
     .footer-soc-list{
         display: flex;
@@ -320,7 +332,7 @@ height: 60px;
         .footer-contact-logo{
             display: flex;
         flex-direction: column;
-        padding-right: 341px;
+        margin-right: 341px;
         }
     
         .footer-logo-icon{
@@ -336,7 +348,7 @@ height: 60px;
             display: inline-flex;
         align-items: flex-start;
         gap: 100px;
-        padding-right: 191px;
+        margin-right: 191px;
         }
         .footer-soc-list{
             display: flex;
