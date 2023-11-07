@@ -125,9 +125,10 @@
     max-width: 381px;
   }
 
+
   .courses-content {
     padding: 32px;
-    width: 342px;
+    max-width: 342px;
     height: 452px;
   }
 
@@ -136,7 +137,7 @@
   }
 
   .courses-subtitle {
-    width: 265px;
+    max-width: 265px;
   }
 
   .courses-list-text {
@@ -151,48 +152,20 @@
     padding-bottom: 150px;
   }
 
-  .courses-intro {
-    justify-content: space-between;
-    gap: 0;
-    margin-bottom: 50px;
-  }
-
   .courses-title-text {
     max-width: 405px;
   }
 
+
   .courses-list {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    margin: 0 auto;
+    display: inline-flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
   }
 
   .courses-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.20);
-    background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
-    padding: 28px;
-    height: 398px;
-  }
+    max-width: 347px;
 
-  .courses-list-number {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 28px;
-  }
-
-  .list-number {
-    color: rgba(255, 255, 255, 0.40);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
   }
 
   .icon-item:hover {
@@ -203,11 +176,29 @@
     fill: #fff;
   }
 
-  .courses-subtitle {
-    width: 265px;
+  .courses-list-text {
+    max-width: 283px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .courses-title-text {
+    max-width: 565px;
+  }
+
+  .courses-content {
+    max-width: 400px;
+  }
+
+  .icon-item:hover {
+    background-color: #BEA69E;
+  }
+
+  .icon-item:hover .icon-img {
+    fill: #fff;
   }
 
   .courses-list-text {
-    width: 283px;
+    max-width: 336px;
   }
 }
