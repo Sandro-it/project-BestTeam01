@@ -40,7 +40,6 @@
   margin: 0 auto;
 }
 
-
 .courses-content {
   display: flex;
   flex-direction: column;
@@ -51,7 +50,6 @@
   padding: 28px;
   height: 398px;
 }
-
 
 .courses-list-number {
   display: flex;
@@ -92,7 +90,7 @@
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
-  width: 279px;
+  max-width: 279px;
 }
 
 .courses-list-text {
@@ -101,7 +99,7 @@
   font-weight: 400;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  width: 279px;
+  max-width: 279px;
 }
 
 @media screen and (min-width: 768px) {
