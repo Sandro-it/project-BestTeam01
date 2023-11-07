@@ -31,7 +31,6 @@
   max-width: 335px;
 }
 
-
 .courses-list {
   display: flex;
   flex-wrap: wrap;
@@ -84,7 +83,6 @@
   fill: #777777;
 }
 
-
 .courses-subtitle {
   color: #FFF;
   font-size: 28px;
@@ -125,7 +123,6 @@
     max-width: 381px;
   }
 
-
   .courses-content {
     padding: 32px;
     max-width: 342px;
@@ -156,7 +153,6 @@
     max-width: 405px;
   }
 
-
   .courses-list {
     display: inline-flex;
     flex-wrap: nowrap;
@@ -165,7 +161,6 @@
 
   .courses-content {
     max-width: 347px;
-
   }
 
   .icon-item:hover {
