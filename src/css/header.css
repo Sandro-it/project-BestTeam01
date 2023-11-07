@@ -81,9 +81,9 @@
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 .header-modal-menu {
-    position: inherit;
+    position: fixed;
     width: 218px;
-    height: 812px;
+    height: 100%;
     background-color: var(--brown, #BEA69E);
     top: 0;
     right: -15px;
@@ -98,10 +98,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 128px;
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 20px;
+    right: 20px;
 }
 
 .header-modal-btn-icon {
@@ -190,6 +189,9 @@ color: #BEA69E;
 }
 
 @media screen and (min-width: 768px) {
+    .header {
+        margin-bottom: 40px;
+    }
     .header-menu-container {
         width: 504px;
         height: 60px;
@@ -211,7 +213,6 @@ color: #BEA69E;
     }
     .header-modal-menu {
         width: 480px;
-        height: 1024px;
     }
     .header-modal-list {
         margin-top: 232px;
@@ -220,8 +221,8 @@ color: #BEA69E;
         gap: 28px;
     }
     .header-modal-btn {
-        top: 20px;
-        right: 32px;
+        top: 30px;
+        right: 42px;
     }
     .container-modal-menu {
         height: 5511px;
@@ -229,6 +230,9 @@ color: #BEA69E;
 }
 
 @media screen and (min-width: 1280px) {
+    .header {
+        margin-bottom: 80px;
+    }
     .container-modal-menu {
         display: none;
     }
