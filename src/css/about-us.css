@@ -21,7 +21,7 @@
   }
   .img-about {
     height: 209px;
-    width: 335px;
+    max-width: 320px;
     margin-bottom: 40px;
   }
   
@@ -44,6 +44,15 @@
     letter-spacing: -0.02em;
     max-width: 335px;
   }
+  /* media for img 375-size */
+  @media screen and (min-width: 375px){
+    .img-about {
+    height: 209px;
+    max-width: 375px;
+    margin-bottom: 40px;
+    }
+    }
+
  /* tablet-about-us */
   @media screen and (min-width: 768px) {
     .about-title {
