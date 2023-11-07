@@ -66,8 +66,8 @@
     padding-bottom: 100px;
   }
   .img-about {
-    height: 340px;
-    width: 704px;
+    max-height: 340px;
+    max-width: 704px;
     margin-bottom: 50px;
   }
 
