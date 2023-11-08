@@ -13,6 +13,7 @@
         placeholder="Enter your name"
         pattern="^[A-Za-zÀ-ÖØ-öø-ÿ\s\.'\-]+$"
         title="Enter a valid name"
+        required
       />
       <input
         type="email"
@@ -21,11 +22,13 @@
         placeholder="Enter your email"
         pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}"
         title="Enter a valid email address"
+        required
       />
       <textarea
         class="input-message"
         name="user-message"
         placeholder="Message"
+        required
       ></textarea>
       <button type="submit" class="signup-button">Send</button>
       <p class="privacy-policy">
